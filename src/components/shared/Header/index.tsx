@@ -33,17 +33,7 @@ const Header = () => {
         animate={hidden ? "hidden" : "visible"}
         transition={{ duration: 0.3, ease: "easeInOut" }}
       >
-        <p>
-          Vi feirer 20-års jubileum!
-          <a
-            href="https://www.kajakk-fritid.no/salg"
-            target="_blank"
-            style={{ color: "#f76565" }}
-          >
-            {" "}
-            Se tilbudene her
-          </a>
-        </p>
+        <p>Lave priser - Høy kvalitet</p>
       </motion.section>
       <motion.section
         className={styles.main}

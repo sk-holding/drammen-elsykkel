@@ -16,11 +16,6 @@ const Footer = () => {
               tilby førsteklasses utstyr for de som har en lidenskap for å
               utforske naturen gjennom utendørsaktiviteter.
             </p>
-            <p>
-              Fra starten har selskapet vært dedikert til å tilby et omfattende
-              utvalg av produkter og tjenester samtidig som det opprettholder en
-              urokkelig standard for kvalitet og kundeservice.
-            </p>
           </div>
           <Navigation menu={main} title="Info" />
           <Navigation menu={support} title="Kontakt oss" />

@@ -7,7 +7,18 @@
     
     .inner {
         display: grid;
-        max-width: 25rem;
+        gap: 10px;
+        grid-template-columns: auto auto;
+
+        img {
+            aspect-ratio: 16 / 9;
+            object-fit: cover;
+        }
     }
 }
 
+@media screen and (max-width: 700px) {
+    .inner {
+        grid-template-columns: auto !important;
+    }
+}
